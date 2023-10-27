@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>border.kml</name>
+	<Schema name="border" id="S_border_DDDDDDDSDSSSSDSDSSDDSSSSD">
+		<SimpleField type="double" name="FeatId1"><displayName>&lt;b&gt;FeatId1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="OBJECTID"><displayName>&lt;b&gt;OBJECTID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="FID_1"><displayName>&lt;b&gt;FID_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="BPGIS_BPDA"><displayName>&lt;b&gt;BPGIS_BPDA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="PERIMETER"><displayName>&lt;b&gt;PERIMETER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="CITY_20041"><displayName>&lt;b&gt;CITY_20041&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="CITY_20042"><displayName>&lt;b&gt;CITY_20042&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CITY"><displayName>&lt;b&gt;CITY&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ACRES"><displayName>&lt;b&gt;ACRES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="UNC_NAME"><displayName>&lt;b&gt;UNC_NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TYPE"><displayName>&lt;b&gt;TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="YEAR_INCOR"><displayName>&lt;b&gt;YEAR_INCOR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DATE_INCOR"><displayName>&lt;b&gt;DATE_INCOR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="INCORP_POP"><displayName>&lt;b&gt;INCORP_POP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CITYNM_ULC"><displayName>&lt;b&gt;CITYNM_ULC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="SQUARE_MIL"><displayName>&lt;b&gt;SQUARE_MIL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONTRACT"><displayName>&lt;b&gt;CONTRACT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CODE"><displayName>&lt;b&gt;CODE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="COUNT_"><displayName>&lt;b&gt;COUNT_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="created_us"><displayName>&lt;b&gt;created_us&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="created_da"><displayName>&lt;b&gt;created_da&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="last_edite"><displayName>&lt;b&gt;last_edite&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="last_edi_1"><displayName>&lt;b&gt;last_edi_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Le_1"><displayName>&lt;b&gt;Shape_Le_1&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="style0">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FeatId1</b></td><td>$[border/FeatId1]</td></tr>
+  <tr><td><b>OBJECTID</b></td><td>$[border/OBJECTID]</td></tr>
+  <tr><td><b>FID_1</b></td><td>$[border/FID_1]</td></tr>
+  <tr><td><b>BPGIS_BPDA</b></td><td>$[border/BPGIS_BPDA]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[border/PERIMETER]</td></tr>
+  <tr><td><b>CITY_20041</b></td><td>$[border/CITY_20041]</td></tr>
+  <tr><td><b>CITY_20042</b></td><td>$[border/CITY_20042]</td></tr>
+  <tr><td><b>CITY</b></td><td>$[border/CITY]</td></tr>
+  <tr><td><b>ACRES</b></td><td>$[border/ACRES]</td></tr>
+  <tr><td><b>UNC_NAME</b></td><td>$[border/UNC_NAME]</td></tr>
+  <tr><td><b>TYPE</b></td><td>$[border/TYPE]</td></tr>
+  <tr><td><b>YEAR_INCOR</b></td><td>$[border/YEAR_INCOR]</td></tr>
+  <tr><td><b>DATE_INCOR</b></td><td>$[border/DATE_INCOR]</td></tr>
+  <tr><td><b>INCORP_POP</b></td><td>$[border/INCORP_POP]</td></tr>
+  <tr><td><b>CITYNM_ULC</b></td><td>$[border/CITYNM_ULC]</td></tr>
+  <tr><td><b>SQUARE_MIL</b></td><td>$[border/SQUARE_MIL]</td></tr>
+  <tr><td><b>CONTRACT</b></td><td>$[border/CONTRACT]</td></tr>
+  <tr><td><b>CODE</b></td><td>$[border/CODE]</td></tr>
+  <tr><td><b>COUNT_</b></td><td>$[border/COUNT_]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[border/Shape_Leng]</td></tr>
+  <tr><td><b>created_us</b></td><td>$[border/created_us]</td></tr>
+  <tr><td><b>created_da</b></td><td>$[border/created_da]</td></tr>
+  <tr><td><b>last_edite</b></td><td>$[border/last_edite]</td></tr>
+  <tr><td><b>last_edi_1</b></td><td>$[border/last_edi_1]</td></tr>
+  <tr><td><b>Shape_Le_1</b></td><td>$[border/Shape_Le_1]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="style00">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FeatId1</b></td><td>$[border/FeatId1]</td></tr>
+  <tr><td><b>OBJECTID</b></td><td>$[border/OBJECTID]</td></tr>
+  <tr><td><b>FID_1</b></td><td>$[border/FID_1]</td></tr>
+  <tr><td><b>BPGIS_BPDA</b></td><td>$[border/BPGIS_BPDA]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[border/PERIMETER]</td></tr>
+  <tr><td><b>CITY_20041</b></td><td>$[border/CITY_20041]</td></tr>
+  <tr><td><b>CITY_20042</b></td><td>$[border/CITY_20042]</td></tr>
+  <tr><td><b>CITY</b></td><td>$[border/CITY]</td></tr>
+  <tr><td><b>ACRES</b></td><td>$[border/ACRES]</td></tr>
+  <tr><td><b>UNC_NAME</b></td><td>$[border/UNC_NAME]</td></tr>
+  <tr><td><b>TYPE</b></td><td>$[border/TYPE]</td></tr>
+  <tr><td><b>YEAR_INCOR</b></td><td>$[border/YEAR_INCOR]</td></tr>
+  <tr><td><b>DATE_INCOR</b></td><td>$[border/DATE_INCOR]</td></tr>
+  <tr><td><b>INCORP_POP</b></td><td>$[border/INCORP_POP]</td></tr>
+  <tr><td><b>CITYNM_ULC</b></td><td>$[border/CITYNM_ULC]</td></tr>
+  <tr><td><b>SQUARE_MIL</b></td><td>$[border/SQUARE_MIL]</td></tr>
+  <tr><td><b>CONTRACT</b></td><td>$[border/CONTRACT]</td></tr>
+  <tr><td><b>CODE</b></td><td>$[border/CODE]</td></tr>
+  <tr><td><b>COUNT_</b></td><td>$[border/COUNT_]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[border/Shape_Leng]</td></tr>
+  <tr><td><b>created_us</b></td><td>$[border/created_us]</td></tr>
+  <tr><td><b>created_da</b></td><td>$[border/created_da]</td></tr>
+  <tr><td><b>last_edite</b></td><td>$[border/last_edite]</td></tr>
+  <tr><td><b>last_edi_1</b></td><td>$[border/last_edi_1]</td></tr>
+  <tr><td><b>Shape_Le_1</b></td><td>$[border/Shape_Le_1]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="style01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>border</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#style01</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_border_DDDDDDDSDSSSSDSDSSDDSSSSD">
+					<SimpleData name="FeatId1">1</SimpleData>
+					<SimpleData name="OBJECTID">1</SimpleData>
+					<SimpleData name="FID_1">24</SimpleData>
+					<SimpleData name="BPGIS_BPDA">2.94128e+08</SimpleData>
+					<SimpleData name="PERIMETER">131933</SimpleData>
+					<SimpleData name="CITY_20041">26</SimpleData>
+					<SimpleData name="CITY_20042">27</SimpleData>
+					<SimpleData name="CITY">BUENA PARK</SimpleData>
+					<SimpleData name="ACRES">6752.26</SimpleData>
+					<SimpleData name="UNC_NAME"></SimpleData>
+					<SimpleData name="TYPE">City</SimpleData>
+					<SimpleData name="YEAR_INCOR">1953</SimpleData>
+					<SimpleData name="DATE_INCOR">January 27</SimpleData>
+					<SimpleData name="INCORP_POP">5483</SimpleData>
+					<SimpleData name="CITYNM_ULC">Buena Park</SimpleData>
+					<SimpleData name="SQUARE_MIL">11</SimpleData>
+					<SimpleData name="CONTRACT">YES</SimpleData>
+					<SimpleData name="CODE">BPK</SimpleData>
+					<SimpleData name="COUNT_">8</SimpleData>
+					<SimpleData name="Shape_Leng">131933</SimpleData>
+					<SimpleData name="created_us"></SimpleData>
+					<SimpleData name="created_da"></SimpleData>
+					<SimpleData name="last_edite"></SimpleData>
+					<SimpleData name="last_edi_1"></SimpleData>
+					<SimpleData name="Shape_Le_1">131933</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<LineString>
+				<coordinates>
+					-117.9896629908542,33.89548688192917,0 -117.9853295444328,33.8955123293901,0 -117.9842911414269,33.8955118185461,0 -117.9766208584028,33.89555202046621,0 -117.9765247683159,33.88615686661763,0 -117.9765168589784,33.88538731737074,0 -117.9765309599273,33.88495352684444,0 -117.9765076789019,33.88448668332616,0 -117.9763990670096,33.87393526256092,0 -117.9851460087668,33.87552479738461,0 -117.9851392789427,33.87357400873155,0 -117.9851114436758,33.87357417243556,0 -117.9850822908458,33.86994808323346,0 -117.9821694458693,33.8699671218103,0 -117.9821630158969,33.86921702208057,0 -117.9821496681718,33.8683340134416,0 -117.9821376884025,33.86625499131518,0 -117.9824357323068,33.86625320996048,0 -117.9830686004584,33.86625961709518,0 -117.9849458885276,33.86623820154725,0 -117.9849058224745,33.86073549039931,0 -117.9849068893847,33.85996797011034,0 -117.9806335815151,33.85999396224794,0 -117.9806417441986,33.86102722418387,0 -117.9806549022412,33.86453132585506,0 -117.9770631091474,33.86455372508154,0 -117.9762984328086,33.864556792565,0 -117.9762731256408,33.86312761778755,0 -117.9762797783382,33.86272998689315,0 -117.9763786173995,33.8627294438905,0 -117.9763852325068,33.86233528130573,0 -117.9763605822259,33.85965774293224,0 -117.9765644889578,33.85965885542306,0 -117.976560448568,33.85919059718771,0 -117.9782340250721,33.85917971294348,0 -117.9804953224283,33.85916877432567,0 -117.9848989970549,33.85914326230941,0 -117.9849034350541,33.85867506176724,0 -117.9848087332585,33.85868935706662,0 -117.983011447976,33.85771747064024,0 -117.9841336975777,33.85726696303678,0 -117.9848810381587,33.85767129635728,0 -117.9848656796819,33.85615026559994,0 -117.9848987871595,33.85615017655221,0 -117.9848782197339,33.85402233328402,0 -117.9823308406068,33.85405045961297,0 -117.9805757381489,33.85406980937152,0 -117.9805010804357,33.84688130379305,0 -117.9783223661147,33.84689726138846,0 -117.9783027170932,33.84499361562148,0 -117.9804828126832,33.84497713272423,0 -117.9804266505406,33.83954813578383,0 -117.9847374934675,33.83951147420417,0 -117.9847366984144,33.83942884572564,0 -117.985671891747,33.83942108161312,0 -117.9856453742346,33.83668142313041,0 -117.9860816739032,33.83667770274153,0 -117.9860732538719,33.83580761057645,0 -117.9888138401562,33.83578508270584,0 -117.9888143166257,33.83586282408586,0 -117.9891438340618,33.83586139242003,0 -117.9891437160468,33.83578219252679,0 -117.9933718648348,33.83574522192161,0 -118.0023284142617,33.83567196438234,0 -118.0023096100615,33.83384388427685,0 -118.0066063688646,33.833807980762,0 -118.0066016898689,33.83335344561304,0 -118.0077541364509,33.83334376054474,0 -118.0077393061478,33.83207974854287,0 -118.0110472272473,33.83205098183009,0 -118.0110469216616,33.83202349986423,0 -118.0110294733871,33.83045468073866,0 -118.0131158528106,33.83043554668292,0 -118.0130915303056,33.82822357729999,0 -118.0141840024788,33.8282135377404,0 -118.0141653724433,33.82652289440392,0 -118.0152598535908,33.82651270404424,0 -118.0152583367201,33.82637531000765,0 -118.0164541428108,33.82636427959095,0 -118.0164339482882,33.82459063447965,0 -118.0174161157416,33.82458266227831,0 -118.0173967084499,33.82267213026672,0 -118.0152213949595,33.82269237801064,0 -118.0152207559489,33.82262812683557,0 -118.0147676049519,33.82263241080156,0 -118.0147716229623,33.82303800588456,0 -118.0148113781626,33.82303945048859,0 -118.0149236784103,33.82305021524384,0 -118.0149400870902,33.82305267405907,0 -118.0149666786773,33.82306149652535,0 -118.0149867842073,33.82307864851766,0 -118.0149953656762,33.82309522124465,0 -118.0149966528612,33.82311921248908,0 -118.0149744671454,33.82323508628959,0 -118.0149671980086,33.82332411866087,0 -118.0149712487561,33.82342022718649,0 -118.0150051392674,33.82373598893739,0 -118.0150118210531,33.82387333535232,0 -118.0150126641975,33.82397205089853,0 -118.0150072196392,33.82399029156738,0 -118.014990581306,33.82400986170114,0 -118.0149658424927,33.82402208927213,0 -118.0149445156825,33.82402511191951,0 -118.0147850437685,33.8240265841616,0 -118.0147899328414,33.82439479152352,0 -118.014823266791,33.82442765803223,0 -118.0138162194436,33.82443692599279,0 -118.0137980386396,33.82266539865733,0 -118.0130337113121,33.82267258924737,0 -118.0130353421092,33.82282751346243,0 -118.0109461263994,33.82284840019213,0 -118.0109330326209,33.82166364173151,0 -118.0111805907934,33.821630547997,0 -118.0118664810123,33.82151758086004,0 -118.0127199264377,33.82131990453381,0 -118.0130426094712,33.82122841352104,0 -118.0133953474711,33.82111723174997,0 -118.0152003579413,33.82049998735825,0 -118.0151981642636,33.82027804069872,0 -118.0160647304918,33.81998194752514,0 -118.0147525091461,33.81917657468968,0 -118.014732731573,33.81721303529257,0 -118.0173405496408,33.81718765434294,0 -118.0172689350164,33.81001286238175,0 -118.0280420926389,33.80991705583074,0 -118.0281147895904,33.81700724166103,0 -118.0194640088548,33.81708445816802,0 -118.0195505296212,33.82542878747218,0 -118.0174241358095,33.82544848598844,0 -118.0174340223052,33.82635523170775,0 -118.0195602709923,33.82633575451005,0 -118.0195798942442,33.82816219774031,0 -118.0196786709438,33.82816134850052,0 -118.0196879411836,33.82902467224884,0 -118.0197375666063,33.82902424604789,0 -118.0197574399066,33.83090048205909,0 -118.0218324443323,33.83088257919461,0 -118.0218413571799,33.83176204052398,0 -118.0284627361474,33.83170417593178,0 -118.0284617069224,33.8316056705363,0 -118.0291742072731,33.83160052152132,0 -118.0291771478376,33.83189184242288,0 -118.0326666035511,33.83186685251654,0 -118.0327548617215,33.83820479738351,0 -118.0336602627441,33.83819692854097,0 -118.0336587978109,33.83808789774518,0 -118.0345642615639,33.83807966707208,0 -118.0345775063752,33.83905927605885,0 -118.0345780613067,33.83910049896193,0 -118.0349370595788,33.83909743183234,0 -118.0349379380297,33.83916610667696,0 -118.0350381339959,33.83916524683668,0 -118.0350569519716,33.8405968351877,0 -118.0372324093495,33.840575937157,0 -118.0372485311307,33.84177368341581,0 -118.0327986925705,33.84181764546333,0 -118.0328353136779,33.84455313478315,0 -118.0284918047758,33.84459094720035,0 -118.0285541455313,33.8508675370481,0 -118.0320714460913,33.85084577796859,0 -118.0321815666758,33.8508402769346,0 -118.0322933548233,33.85082723553317,0 -118.0324034764691,33.85082173518959,0 -118.0372166432931,33.85078821864401,0 -118.0372837136456,33.8536645195523,0 -118.0330278716431,33.85369459720419,0 -118.0331489157664,33.85876953142429,0 -118.0286235468658,33.85879786209934,0 -118.0286547684553,33.86087248507159,0 -118.0287074977137,33.86605452330367,0 -118.0287767375124,33.87331825586971,0 -118.011370080044,33.8734241754634,0 -118.0114614957467,33.88084757175907,0 -118.0027614703181,33.88089811832616,0 -118.0028478575151,33.88815570537146,0 -117.9940321016785,33.88820573917413,0 -117.9940451000458,33.88937125678463,0 -117.9937201095941,33.88970266288987,0 -117.9932764885137,33.89024242179659,0 -117.9931374979567,33.89044016526811,0 -117.9922145745128,33.8918121984294,0 -117.9918226521037,33.89232868384055,0 -117.9916115454099,33.8925642742415,0 -117.9911291880583,33.89302446249521,0 -117.9905917874968,33.89344008180014,0 -117.9903953212878,33.89357186324897,0 -117.9898442225809,33.89392779802294,0 -117.9896484708121,33.89405865040232,0 -117.9896629908542,33.89548688192917,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
