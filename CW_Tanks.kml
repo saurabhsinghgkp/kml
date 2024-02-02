@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CW_Tanks</name>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>2,000,000 Gallon Tank</name>
+      <description><![CDATA[2,000,000 Gallon Tank    <br>       <br>   FID   1    <br>   YC   1970    <br>   ELEMENTID   CW.TNK.TANK.0001    <br>   JID   1    <br>   COMMENTS       <br>   RC   1000000    <br>   GMIID   MSTR1    <br>   Name   2,000,000 Gallon Tank    <br>   Source       <br>   DateCreate   3/2/2017    <br>   Creator   lindonwd    <br>   EditDate   6/14/2019    <br>   Editor   christinamccullock    <br>   GlobalID   {5b16127a-933d-403e-af42-a63eaefc1508}    <br>   Shape__Are   13918.962524    <br>   Shape__Len   418.228739    <br>   RSL   54    <br>   TSL   100    <br>   ESLY   2068    <br>   Status   Active    <br>   Owner       <br>   P_Source       <br>   A_Source       <br>   D_Source       <br>   Source_Not       <br>   ORIG_FID   1]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -111.687403,40.345562,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>500,000 Gallon Tank</name>
+      <description><![CDATA[500,000 Gallon Tank    <br>       <br>   FID   2    <br>   YC   1960    <br>   ELEMENTID   CW.TNK.TANK.0002    <br>   JID   2    <br>   COMMENTS       <br>   RC   545000    <br>   GMIID   MSTR2    <br>   Name   500,000 Gallon Tank    <br>   Source       <br>   DateCreate   3/2/2017    <br>   Creator   lindonwd    <br>   EditDate   6/14/2019    <br>   Editor   christinamccullock    <br>   GlobalID   {2ae60d71-b94b-48fd-b9d5-12db2d1e1ffa}    <br>   Shape__Are   4485.406372    <br>   Shape__Len   237.416747    <br>   RSL   41    <br>   TSL   100    <br>   ESLY   2055    <br>   Status   Active    <br>   Owner       <br>   P_Source       <br>   A_Source       <br>   D_Source       <br>   Source_Not       <br>   ORIG_FID   2]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -111.69505,40.342954,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1,000,000 Gallon Tank</name>
+      <description><![CDATA[1,000,000 Gallon Tank    <br>       <br>   FID   3    <br>   YC   1997    <br>   ELEMENTID   CW.TNK.TANK.0003    <br>   JID   3    <br>   COMMENTS       <br>   RC   772000    <br>   GMIID   MSTR3    <br>   Name   1,000,000 Gallon Tank    <br>   Source       <br>   DateCreate   3/2/2017    <br>   Creator   lindonwd    <br>   EditDate   6/14/2019    <br>   Editor   christinamccullock    <br>   GlobalID   {278aa576-900a-4d02-ae4d-e1a0f5e93ad6}    <br>   Shape__Are   9296.95166    <br>   Shape__Len   341.806842    <br>   RSL   80    <br>   TSL   100    <br>   ESLY   2094    <br>   Status   Active    <br>   Owner       <br>   P_Source       <br>   A_Source       <br>   D_Source       <br>   Source_Not       <br>   ORIG_FID   3]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -111.695052,40.34265,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Canberra Tank</name>
+      <description><![CDATA[Canberra Tank    <br>       <br>   FID   4    <br>   YC   1995    <br>   ELEMENTID   CW.TNK.TANK.0004    <br>   JID   4    <br>   COMMENTS   Canberra Tank    <br>   RC   473000    <br>   GMIID   MSTR4    <br>   Name   Canberra Tank    <br>   Source       <br>   DateCreate   3/2/2017    <br>   Creator   lindonwd    <br>   EditDate   6/14/2019    <br>   Editor   christinamccullock    <br>   GlobalID   {58c6ce96-fc22-4f72-85db-c921d5e74ce7}    <br>   Shape__Are   3118.623413    <br>   Shape__Len   210.236702    <br>   RSL   71    <br>   TSL   100    <br>   ESLY   2085    <br>   Status   Active    <br>   Owner       <br>   P_Source       <br>   A_Source       <br>   D_Source       <br>   Source_Not       <br>   ORIG_FID   4]]></description>
+      <styleUrl>#icon-1899-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -111.681107,40.3412,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
